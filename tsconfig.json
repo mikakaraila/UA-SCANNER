@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "rootDir": "bin",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "strictFunctionTypes": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "target": "es2020",
+        "module": "commonjs",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true,
+        "listFiles": false,
+        "noStrictGenericChecks": false,
+        "noImplicitThis": true,
+        "skipLibCheck": false,
+        "removeComments": false,
+        "incremental": true,
+        "composite": true,
+        "esModuleInterop": true
+    },
+    "include": ["bin/*.ts"],
+    "exclude": ["node_modules", "dist"]
+}

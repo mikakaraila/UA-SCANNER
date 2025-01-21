@@ -1,0 +1,1 @@
+node -r ts-node/register bin\ua_scanner.ts -e opc.tcp://H7Q8Q13.mshome.net:53530/OPCUA/SimulationServer -c 
